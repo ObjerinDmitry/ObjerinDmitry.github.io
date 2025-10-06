@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <body>
+        <form onsubmit="greet(); return false;">
+            <input type="text" placeholder="Name" id="name">
+            <input type="submit">
+        </form>
+        <script>
+            function greet()
+            {
+                alert("Hello" + document.querySelector("#name").value);
+                //Функция JavaScript стандартное окошко с сообщением
+                //querrySelector выбор документов из списка файлов
+                //Задаём переменную имени и выводим его в alert
+            }
+        </script>
+    </body>
+</html>
+
+//Почему-то не работает
