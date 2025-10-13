@@ -1,0 +1,22 @@
+body{background-color: #fdf5e6}
+h1{color: black}
+p{color: black}
+em{color: black}
+
+.image-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.link-item {
+  flex: 1;
+  text-align: center;
+}
+
+.link-item img {
+  max-width: 25%;
+  height: auto;
+  display: block;
+}
